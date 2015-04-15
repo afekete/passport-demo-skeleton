@@ -9,7 +9,7 @@ var express = require('express'),
 	session = require('express-session'),
 	configDB = require('./config/database.js');
 
-mongoose.connect(configDB.url); // db connection
+//mongoose.connect(configDB.url); // db connection
 require('./config/passport')(passport);
 
 app.use(morgan('dev'));
