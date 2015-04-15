@@ -8,7 +8,7 @@ module.exports = function(app, passport) {
 
 	// Define GET route for /logout endpoint
 	
-
+	// Define custom isLoggedIn middleware
 
 	
 
